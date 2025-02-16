@@ -37,9 +37,9 @@ This will run the default example of skill gap analysis between a resume and a j
 
 ## Sample prompt responses
 
-*Skills Extraction:*
+### Skills Extraction:
 
-Prompt:
+**Prompt:**
 
 ```
 Please analyze the following resume text and extract three categories of skills:
@@ -59,7 +59,7 @@ Functional Skills: [list of skills]
 Soft Skills: [list of skills]
 ```
 
-Resume text:
+**Resume text:**
 
 ```
 Led a team of 5 developers to successfully migrate a legacy Java application 
@@ -68,7 +68,7 @@ Improved system performance by 40% through optimization and reduced deployment
 time by 60%. Conducted weekly team meetings and mentored 2 junior developers.
 ```
 
-Response:
+**Response:**
 
 ```
 Technical Skills: Java, Python, Jenkins, Docker, CI/CD
@@ -76,9 +76,9 @@ Functional Skills: None identified
 Soft Skills: Leadership, Mentorship
 ```
 
-*Skill Gap Analysis:*
+### Skill Gap Analysis:
 
-Prompt:
+**Prompt:**
 
 ```
 Perform a detailed skill gap analysis between the candidate's resume and the job description. 
@@ -129,7 +129,7 @@ Perform a detailed skill gap analysis between the candidate's resume and the job
         {jd} 
 ```
 
-Resume text:
+**Resume text:**
 
 ```
 John Doe
@@ -140,7 +140,7 @@ Experience in designing and implementing scalable data architectures and data mo
 Strong background in Python and Java, with a focus on data analysis and machine learning applications.
 ```
 
-Job Description: 
+**Job Description:**
 
 ```
 As a Data Engineer, you will be responsible for designing, building, and maintaining scalable data pipelines and architectures. 
@@ -150,7 +150,7 @@ Required skills include proficiency in SQL, Python, and big data technologies su
 Strong problem-solving skills and the ability to work in a fast-paced environment are essential.
 ```
 
-Response:
+**Response:** 
 
 ```
 Skill Gap Analysis:
