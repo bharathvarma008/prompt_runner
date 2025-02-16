@@ -99,6 +99,6 @@ Logs are stored in the `logs` directory in JSON format with the following inform
 
 ## About Author:
 
-I'm Senior Data Scientist working at [@Starbucks](https://www.starbucks.com/). I'm an AI/ML enthusiast with a passion for building scalable and efficient systems.
+I'm Bharath, a Senior Data Scientist working at [@Starbucks](https://www.starbucks.com/). I'm an AI/ML enthusiast with a passion for building scalable and efficient systems.
 
 You can find me on [LinkedIn](https://www.linkedin.com/in/bharathvarma)
