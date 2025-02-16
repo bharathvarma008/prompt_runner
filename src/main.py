@@ -17,8 +17,18 @@ def main():
         print("\nSkills Analysis:")
         print(skills_analysis)
         
-        resume = """[Resume text here]"""
-        job_description = """[Job description text here]"""
+        resume = """John Doe
+        Software Engineer with 5+ years of experience in big data technologies. 
+        Proficient in Hadoop, Spark, and Kafka. 
+        Led a team to develop a data processing pipeline that improved data retrieval times by 30%. 
+        Experience in designing and implementing scalable data architectures and data models. 
+        Strong background in Python and Java, with a focus on data analysis and machine learning applications.
+        """
+        job_description = """As a Data Engineer, you will be responsible for designing, building, and maintaining scalable data pipelines and architectures. 
+        You will work with large datasets to ensure data quality and accessibility for analytics and business intelligence. 
+        Key responsibilities include developing ETL processes, optimizing data storage solutions, and collaborating with data scientists and analysts to support data-driven decision-making. 
+        Required skills include proficiency in SQL, Python, and big data technologies such as Apache Spark and Hadoop. Experience with cloud platforms like AWS or Azure is a plus. 
+        Strong problem-solving skills and the ability to work in a fast-paced environment are essential."""
         result = manager.analyze_skill_gap(resume, job_description)
         print("\nSkill Gap Analysis:")
         print(result)
